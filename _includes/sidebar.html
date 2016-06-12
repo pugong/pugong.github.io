@@ -1,0 +1,21 @@
+<aside id="sidebar">
+  <div id="sidebar-right">
+
+    <div id="sidebar-social">
+      {% include social_links.html %}
+    </div>
+
+    <ul id="sidebar-tags">
+      <li class="sidebar-tag active" data-filter="all">全部文章</li>
+      {% if site.filter == 'category' %}
+        {% for category in site.categories %}
+          <li class="sidebar-tag" data-filter="{{ category | first }}">{{ category | first }}</li>
+        {% endfor %}
+      {% elsif site.filter == 'tag' %}
+        {% for tag in site.tags %}
+          <li class="sidebar-tag" data-filter="{{ tag | first }}">{{ tag | first }}</li>
+        {% endfor %}
+      {% endif %}
+    </ul>
+  </div>
+</aside>

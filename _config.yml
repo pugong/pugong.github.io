@@ -1,0 +1,53 @@
+# Site settings
+title: PuGong
+url: /
+author_info: Bookworm, Programmer
+# email:       pugong.liu@gmail.com
+# email:
+description: Bookworm, Programmer
+# baseurl:     ""
+# site.filter: tag
+# show_drafts: false
+# highlighter: rouge
+# highlighter: pygments
+
+#Duoshuo short Name / 多说的shortname
+duoshuo: 
+
+#Baidu analytics / 百度统计(异步的js码，注意使用异步版本的)
+baidu_analyze:  
+
+# Google analytics
+google_analytics:
+
+# Optional features
+animated:           false
+show_related_posts: false
+show_post_footers:  false
+
+# Social icons
+show_social_icons: true
+github_username: pugong
+twitter_username: pgliu
+google_plus_id: pugong.liu
+linkedin_username: 
+bitcoin_url:
+paypal_url:
+flattr_button:
+facebook_username: pugong.liu
+
+gems: 
+    [jekyll-paginate, jekyll-sitemap, jekyll-feed]
+
+# Build settings
+github: [metadata]
+markdown:     kramdown
+permalink:    pretty
+paginate:     5
+sass:
+  compressed: true
+
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
