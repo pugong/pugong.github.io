@@ -43,7 +43,7 @@ gems:
 github: [metadata]
 markdown:     kramdown
 permalink:    pretty
-paginate:     5
+paginate:     3
 sass:
   compressed: true
 

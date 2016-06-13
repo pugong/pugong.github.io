@@ -3,11 +3,8 @@ layout: post
 title: Travel Plan
 description: Just a plan。
 category: blog
-hide_title: true
 ---
 
-Travel Plan
-=======
 
 #### 2016 春节
 

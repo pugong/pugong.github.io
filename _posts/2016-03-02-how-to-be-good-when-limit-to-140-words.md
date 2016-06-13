@@ -3,7 +3,7 @@ layout: post
 title: 如何在140字限制中表述更好 [摘录]
 description: twitter 微博 表达
 category: blog
-hide_title: true
+
 ---
 
 

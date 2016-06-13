@@ -3,10 +3,10 @@ layout: post
 title: Git workflow
 description: Induction training of Dev Team － part II source control & git workflow 
 category: blog
+
 ---
 
 
-## git branch workflow说明
 
 * feature: 功能开发分支，开发主要使用的分支
 * dev: 开发主版本，feather分支开发完成merge过来

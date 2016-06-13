@@ -4,13 +4,12 @@ title: Intro and Linear Regression | Machine Learning
 description: Notes on Machine Learning by Andrew Ng from Stanford University
 category: blog
 tags: [mooc, coursera, machine learning]
-hide_title: true
 ---
 
-Machine Learning Notes
-=====================
-Intro and Linear Regression
-----
+
+
+### Intro and Linear Regression
+
 
 #### Reference:
 [Course Home in Coursera](https://www.coursera.org/learn/machine-learning/home/welcome)
