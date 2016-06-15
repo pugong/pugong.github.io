@@ -2,7 +2,7 @@
 layout: post
 title: 语言战争
 description: 语言战争一直在在不同的语言的拥护者中不停的进行中，不过这种争论真的有必要吗？
-category: blog
+category: Tech
 tags: [语言, 背锅]
 ---
 

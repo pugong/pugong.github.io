@@ -2,7 +2,7 @@
 layout: post
 title: Travel Plan
 description: Just a plan。
-category: blog
+category: Life
 ---
 
 

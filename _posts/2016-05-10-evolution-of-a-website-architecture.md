@@ -2,7 +2,7 @@
 layout: post
 title: Evolution of A Website’s Architecture
 description: Induction training of Dev Team － part III： from a single server to cluster & sharding 
-category: blog
+category: Tech
 ---
 
 ## 概述

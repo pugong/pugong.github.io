@@ -2,7 +2,7 @@
 layout: post
 title: Induction training of Dev Team
 description: Induction training of Dev Team
-category: blog
+category: Tech
 
 ---
 

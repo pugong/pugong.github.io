@@ -2,7 +2,7 @@
 layout: post
 title: 希腊神话和传说年表 [上] 
 description: 以神话为主，从盖亚诞生到海格利斯去世的希腊神话和历史年表
-category: blog
+category: reading
 tags: [希腊, 神话, 传说, 年表]
 ---
 

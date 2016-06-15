@@ -1,6 +1,7 @@
 # Site settings
 title: PuGong
 url: /
+baseurl: /
 author_info: Bookworm, Programmer
 # email:       pugong.liu@gmail.com
 # email:

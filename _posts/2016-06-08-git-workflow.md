@@ -2,7 +2,7 @@
 layout: post
 title: Git workflow
 description: Induction training of Dev Team － part II source control & git workflow 
-category: blog
+category: Tech
 
 ---
 

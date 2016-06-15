@@ -2,7 +2,7 @@
 layout: post
 title: 希腊神话和传说年表 [下] 
 description: 主要以传说为主，从特洛伊战争开始到准信史时代。
-category: blog
+category: reading
 tags: [希腊, 神话, 传说, 年表]
 ---
 

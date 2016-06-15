@@ -2,7 +2,7 @@
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <h1>
-        <a href="{{ site.baseurl }}">
+        <a href="{{ site.url }}">
           {{ site.title }}
         </a>
       </h1>
@@ -12,7 +12,20 @@
     <nav class="sidebar-nav">
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.url }}">Home</a>
 
-      {% comment %}
+      <section{% if page.date or page.title == site.title %} class="active"{% endif %}>
+          {% include widgets/recent_posts_list %}
+      </section>
+      <!-- <section{% if page.title == 'Archive' %} class="active"{% endif %}>
+        {% include widgets/archive_list %}
+      </section> -->
+      <!-- <section{% if page.title == 'Category' %} class="active"{% endif %}>
+        {% include widgets/categories_list %}
+      </section> -->
+      <!-- <section{% if page.title == 'Tag' %} class="active"{% endif %}>
+        {% include widgets/tag_cloud %}
+      </section> -->
+
+      <!-- {% comment %}
         The code below dynamically generates a sidebar nav of pages with
         `layout: page` in the front-matter. See readme for usage.
       {% endcomment %}
@@ -24,9 +37,9 @@
             <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.title }}</a>
           {% endif %}
         {% endif %}
-      {% endfor %}
+      {% endfor %} -->
 
-      <a class="sidebar-nav-item" href="{{ site.github.repo }}">GitHub project</a>
+      <a class="sidebar-nav-item" href="/about">About</a>
       
     </nav>
 

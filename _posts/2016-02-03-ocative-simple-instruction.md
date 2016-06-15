@@ -2,7 +2,7 @@
 layout: post
 title: Octave简单使用说明
 description: Octave simple instruction based on Machine Learning by Andrew Ng from Stanford University
-category: blog
+category: [Tech]
 tags: [Octave, machine learning]
 ---
 

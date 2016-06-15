@@ -6,6 +6,9 @@ category: blog
 hide_title: true
 ---
 
+jira: https://downloads.atlassian.com/software/jira/downloads/atlassian-jira-software-7.1.7-jira-7.1.7.tar.gz
+
+
 ```javascript
     var s = "JavaScript syntax highlighting";
     alert(s);

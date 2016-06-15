@@ -2,7 +2,7 @@
 layout: post
 title: Markdown语法说明（详解版）
 description: 转载于图灵社区<http://www.ituring.com.cn/article/504>
-category: blog
+category: Tech
 tags: [markdown, 语法, 使用说明]
 ---
 

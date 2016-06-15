@@ -2,7 +2,7 @@
 layout: post
 title: 为什么不给程序员配好电脑 [翻译]
 description: 为什么很多技术公司不愿意给程序员配好电脑呢，网友Bob Murphy在stackexchange对这个问题的回答很赞，值得一读
-category: blog
+category: Tech
 tags: [技术, 效率]
 ---
 

@@ -2,7 +2,7 @@
 layout: post
 title: 累了吧 (翻译)
 description: 对于感到被新技术淹没的小贴士
-category: blog
+category: [Tech]
 
 ---
 

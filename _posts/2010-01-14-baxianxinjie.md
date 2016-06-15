@@ -2,7 +2,7 @@
 layout: post
 title: 八仙新解
 description: 八仙者，盖道教为了对抗佛家西游四人帮日益强大的偶像魅力而组织的新一代偶像团体来吸引善男信女
-category: blog
+category: reading
 tags: [胡言乱语, 历史]
 ---
 

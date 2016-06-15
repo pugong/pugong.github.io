@@ -2,7 +2,7 @@
 layout: post
 title: Intro and Linear Regression | Machine Learning
 description: Notes on Machine Learning by Andrew Ng from Stanford University
-category: blog
+category: [Tech]
 tags: [mooc, coursera, machine learning]
 ---
 
