@@ -29,6 +29,13 @@ category: Tech
 * 发布
 * [监控](/blog/2016/06/02/elk-statsd/)
 
+-----
+
+[Product, Develop & Operation](/images/att/Induction-training-Product-Dev-Ops.pdf)
+[Evolution of Website’s Architecture](/images/att/Induction-training-Evolution-of-WebSite.pdf)
+[Authentication, Authorition and SSO](/images/att/Induction-Training-Au-Az-SSO.pdf)
+[Cach](/images/att/Induction-Training-Cache.pdf)
+
 
 ### 参考资料：
 
