@@ -32,6 +32,8 @@ My resume in [linkedin](http://cn.linkedin.com/in/pugong)
 
 [Cache](/images/att/Induction-Training-Cache.pdf)
 
+[Just log](/images/att/induction-training-just-log.pdf)
+
 -------
 
 #### 感谢：
