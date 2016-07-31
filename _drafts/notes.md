@@ -5,6 +5,9 @@ description:
 category: blog
 ---
 
+[message queue](https://zhuanlan.zhihu.com/p/21649950)
+
+
 postgres
 
 change owner:

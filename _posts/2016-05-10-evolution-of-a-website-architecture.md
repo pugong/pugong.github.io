@@ -47,3 +47,8 @@ category: Tech
 
 ### Sharding
 ![](/images/webarch/arch_evo_Sharding.png)
+
+
+## Reference
+[A Brief History of Scaling LinkedIn](https://engineering.linkedin.com/architecture/brief-history-scaling-linkedin)
+[网站架构演变](http://greemranqq.iteye.com/blog/1997800)
