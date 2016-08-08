@@ -10,7 +10,7 @@ encoding: utf-8
 highlighter: rouge
 markdown: kramdown
 kramdown:
-  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript", "with_toc_data", "tables"]
+  input:         GFM
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.

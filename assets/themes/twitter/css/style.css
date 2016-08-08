@@ -87,22 +87,26 @@ a:hover, a:active { outline: none; }
   width: 100%;
   float: left;
   vertical-align: baseline;
+  overflow-wrap: nowrap;
+  word-wrap: nowrap;
 }
 #top >a { float: left; }
-#logo { margin-top: 20px; }
-#top h1 {
-  font-size:44px;
+#logo { 
+  margin-top: 20px; 
+  font-size:48px;
   font-weight:bold;
 }
-#top h1 a:hover{
+#top a:hover{
   color: #036; 
   text-decoration: none;
 }
 #logo_sub {
-  font-size:22px;
-  font-weight:bold
+  margin-top: 30px; 
+  font-size:20px;
+  font-weight:bold;
+  vertical-align: baseline;
+  position: relative;
 }
-
 
 #navbar {
   float: right;
