@@ -1,4 +1,11 @@
+---
+layout: post
+title: 软件架构 - Concerns
+description: Software Architecture
+category: blog
+---
 
+{% include JB/setup %}
 
 
 Concerns: 

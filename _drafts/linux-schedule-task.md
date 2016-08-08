@@ -5,7 +5,7 @@ description:
 category: blog
 hide_title: true
 ---
-
+{% include JB/setup %}
 
 
 #### crontab

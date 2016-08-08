@@ -5,7 +5,7 @@ description: 主要以传说为主，从特洛伊战争开始到准信史时代�
 category: reading
 tags: [希腊, 神话, 传说, 年表]
 ---
-
+{% include JB/setup %}
 
 ### 特洛伊战争之后
 

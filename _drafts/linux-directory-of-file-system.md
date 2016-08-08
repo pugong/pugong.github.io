@@ -4,6 +4,7 @@ title: The Directory of Linux File System
 description: 
 category: blog
 ---
+{% include JB/setup %}
 
 #### 常用目录说明
 

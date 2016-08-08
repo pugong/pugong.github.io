@@ -5,7 +5,7 @@ description: Notes on Machine Learning by Andrew Ng from Stanford University
 category: [Tech]
 tags: [mooc, coursera, machine learning]
 ---
-
+{% include JB/setup %}
 
 
 ### Intro and Linear Regression

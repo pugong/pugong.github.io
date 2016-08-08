@@ -4,7 +4,8 @@ title: 互联网时代的软件架构
 description: 软件架构在互联网时代和之前有什么不同的地方
 category: blog
 ---
-
+ {% include JB/setup %}
+ 
 互联网时代的软件架构
 =======
 

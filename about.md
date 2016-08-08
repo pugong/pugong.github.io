@@ -1,9 +1,11 @@
 ---
 layout: page
-title:  关于
-permalink: /about/
-no_duoshuo: true
+title: "关于我"
+description: "information about me"
+group: navigation
+comments: false
 ---
+{% include JB/setup %}
 
 #### About PuGong
 

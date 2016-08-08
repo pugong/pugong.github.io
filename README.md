@@ -2,7 +2,7 @@
 
 Starting using github pages.
 
-Use [beiyuu's](http://beiyuu.com/) theme first, then changed to [pixyll](https://github.com/johnotander/pixyll). Thanks for their great products.
+Use [beiyuu's](http://beiyuu.com/) theme first, then changed to [pixyll](https://github.com/johnotander/pixyll), and now changed to [liberize](liberize.me)'s theme. Thanks for their great products.
 
 Code Highlighted by [Rouge](https://github.com/jneen/rouge)
 

@@ -1,10 +1,11 @@
 ---
 layout: post
 title: factory, facade, builder, template & strategy pattern
-description: 
+description: design patterns
 category: blog
-hide_title: true
 ---
+{% include JB/setup %}
+
 
 #设计模式简述
 

@@ -5,7 +5,7 @@ description: 对于感到被新技术淹没的小贴士
 category: [Tech]
 
 ---
-
+{% include JB/setup %}
 
 
 

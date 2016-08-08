@@ -5,6 +5,7 @@ description: statsd vs elk (elasticsearch, kibana and logstash)
 category: Tech
 
 ---
+{% include JB/setup %}
 
 监控方案一般有两种选择：
 

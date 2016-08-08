@@ -4,7 +4,7 @@ title: Message queue
 description: 
 category: blog
 ---
-
+{% include JB/setup %}
 
 ### Concepts
 

@@ -5,7 +5,7 @@ description: Induction training of Dev Team
 category: Tech
 
 ---
-
+{% include JB/setup %}
 
 针对新入职的员工的基础软件开发／测试素养培训，本培训不包括基础的语言语法学习，唯一会提到基础语法的地方是在数据库讲解中对sql的基础语言稍微提一下，因为这一点与开发人员应该知道的sql优化知识相关。
 

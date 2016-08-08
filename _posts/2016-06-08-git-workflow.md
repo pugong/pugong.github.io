@@ -5,7 +5,7 @@ description: Induction training of Dev Team － part II source control & git wor
 category: Tech
 
 ---
-
+{% include JB/setup %}
 
 
 * feature: 功能开发分支，开发主要使用的分支

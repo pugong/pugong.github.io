@@ -4,6 +4,7 @@ title: 软件架构的演化
 description: 软件架构的演化以及各个阶段的特点
 category: blog
 ---
+{% include JB/setup %}
 
 软件架构的演化
 ==============

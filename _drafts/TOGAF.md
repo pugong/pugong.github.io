@@ -1,4 +1,11 @@
+---
+layout: post
+title: 软件架构思想 - TOGAG
+description: 架构思想
+category: blog
+---
 
+{% include JB/setup %}
 
 
 GRASP架构模式

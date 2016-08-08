@@ -5,6 +5,7 @@ description: Octave simple instruction based on Machine Learning by Andrew Ng fr
 category: [Tech]
 tags: [Octave, machine learning]
 ---
+{% include JB/setup %}
 
 #### 安装
 

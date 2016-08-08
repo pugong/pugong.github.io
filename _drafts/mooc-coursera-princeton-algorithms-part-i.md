@@ -5,6 +5,7 @@ description: Notes on Algorithms Part I by Robert Sedgewick and Kevin Wayne from
 category: blog
 tags: mooc coursera algorithms
 ---
+{% include JB/setup %}
 
 [MOOC] Algorithms Part I Notes
 ================

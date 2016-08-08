@@ -1,15 +1,6 @@
-<!DOCTYPE html>
-<html lang="en-us">
-
-  {% include head_hyde.html %}
-
-  <body>
-
-    {% include sidebar.html %}
-
-    <div class="content container">
-      {{ content }}
-    </div>
-
-  </body>
-</html>
+---
+theme :
+  name : twitter
+---
+{% include JB/setup %}
+{% include themes/twitter/default.html %}

@@ -6,6 +6,7 @@ category: blog
 tags: mooc coursera machine learning
 hide_title: true
 ---
+{% include JB/setup %}
 
 Machine Learning Notes 
 ================

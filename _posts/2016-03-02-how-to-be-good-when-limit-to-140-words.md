@@ -5,6 +5,7 @@ description: twitter 微博 表达
 category: [Tech]
 
 ---
+{% include JB/setup %}
 
 
 ### How to be good when limit to 140 words [摘录]
