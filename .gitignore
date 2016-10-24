@@ -17,5 +17,6 @@ Thumbs.db
 *.sublime-project
 *.sublime-workspace
 
-_backups/*
-_drafts/*
+# exclude backups & drafts
+# _backups/*
+# _drafts/*

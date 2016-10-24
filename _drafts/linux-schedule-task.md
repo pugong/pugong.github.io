@@ -20,27 +20,25 @@ hide_title: true
 
 #### java   
 
-+spring  @Scheduled
++ spring  @Scheduled
 
 ```java
-@Scheduled(cron="0/5 * *  * * ? ")   //每5秒执行一次 
+    @Scheduled(cron="0/5 * *  * * ? ")   //每5秒执行一次 
 ```
 
-+quartz api
++ quartz api
 
 #### python
 
-+scheduler 
++ [scheduler](https://docs.python.org/2/library/sched.html)
 
-https://docs.python.org/2/library/sched.html
++ [apscheduler](http://apscheduler.readthedocs.org/en/3.0/)
 
-+apscheduler
 
-http://apscheduler.readthedocs.org/en/3.0/
 
-+django-crom 
++ [django-crom](https://github.com/tivix/django-cron)
 
-https://github.com/tivix/django-cron
+
 
 
 
