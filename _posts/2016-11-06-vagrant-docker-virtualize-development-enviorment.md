@@ -177,7 +177,7 @@ vagrant  reload
 最简单的方式是直接从repository中获取
 
 ```sh
-docker pull 
+docker pull cntos
 ```
 
 
@@ -209,7 +209,7 @@ docker build -t firefox .
 #### 使用Docker
 
 ```sh
-Docker run
+Docker run centos
 ```
 
 
