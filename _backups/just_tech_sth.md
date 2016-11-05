@@ -7,6 +7,19 @@ hide_title: true
 ---
 {% include JB/setup %}
 
+linux version
+
+```sh
+cat /proc/version 
+uname -a
+lsb_release -a
+cat /etc/issue
+cat /etc/redhat-release 
+file /bin/ls
+```
+
+-------------
+
 maven repositories setting
 
 **aliyun** is much faster
@@ -18,12 +31,49 @@ repositories {
     mavenCentral()
 }
 
+-----------------
+
+Ruby mirror$ 
+
+```
+$ gem sources --add https://gems.ruby-china.org/ --remove https://rubygems.org/
+$ gem sources -l
+https://gems.ruby-china.org
+# 确保只有 gems.ruby-china.org
+```
+
+for gemfile / bundle
+
+$ bundle config mirror.https://rubygems.org https://gems.ruby-china.org
 
 ------------
 
 [Aerospike](./)
 
 [vagrant](https://www.vagrantup.com/docs/)
+
+
+https://thornelabs.net/2013/11/11/create-a-centos-6-vagrant-base-box-from-scratch-using-virtualbox.html
+
+VBoxLinuxAdditions.run --nox11
+
+centos min: to install ifconfig
+
+yum install net-tools -y
+
+
+network adapter not started: 
+
+ifup
+
+
+--clean disk 
+
+
+sudo dd if=/dev/zero of=/EMPTY bs=1M
+sudo rm -f /EMPTY
+
+
 
 [vagrant or docker](https://www.quora.com/What-is-the-difference-between-Docker-and-Vagrant-When-should-you-use-each-one)
 
@@ -34,6 +84,22 @@ If you're not sure, use Vagrant.
 
 
 -----
+
+docker:
+
+Install your Registry (on your server or locally)
+
+```sh
+git clone https://github.com/dotcloud/docker-registry.git
+cd docker-registry
+cp config_sample.yml config.yml
+pip install -r requirements.txt
+gunicorn --access-logfile - --log-level debug --debug 
+    -b 0.0.0.0:5000 -w 1 wsgi:application
+```
+https://blog.docker.com/2013/07/how-to-use-your-own-registry/
+
+----
 
 
 [java script video](https://github.com/AllThingsSmitty/must-watch-javascript)

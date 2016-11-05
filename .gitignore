@@ -20,3 +20,5 @@ Thumbs.db
 # exclude backups & drafts
 # _backups/*
 # _drafts/*
+
+*.sh
