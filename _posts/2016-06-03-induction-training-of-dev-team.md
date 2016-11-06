@@ -16,8 +16,8 @@ category: Tech
 * Product / Develop / Operation
 * Software lifecycle
 * ITIL
-* [Source Control](/blog/2016/06/08/git-workflow/)
-* [Evolution of A Website’s Architecture](/blog/2016/05/10/evolution-of-a-website-architecture/)
+* [Source Control](/tech/git-workflow/)
+* [Evolution of A Website’s Architecture](/tech/evolution-of-a-website-architecture/)
 * AA & SSO
 * Cache
 * Message Queue
@@ -27,7 +27,8 @@ category: Tech
 * TOGAF & 4+1 Arch View
 * 测试
 * 发布
-* [监控](/blog/2016/06/02/elk-statsd/)
+* [监控](/tech/elk-statsd/)
+* [虚拟化](/tech/vagrant-docker-virtualize-development-enviorment)
 
 -----
 
