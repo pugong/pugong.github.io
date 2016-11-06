@@ -89,6 +89,8 @@ a:hover, a:active { outline: none; }
   vertical-align: baseline;
   overflow-wrap: nowrap;
   word-wrap: nowrap;
+  background-color: #e6e6e6;
+  box-shadow: 2px 2px 12px #787878;
 }
 #top >a { float: left; }
 #logo { 
@@ -139,7 +141,7 @@ a:hover, a:active { outline: none; }
 #main {
   width: 100%;
   float: left;
-  margin: 20px 0;
+  margin: 10px 0;
   overflow: hidden;
   -moz-box-shadow: 2px 2px 12px #787878;
   -webkit-box-shadow: 2px 2px 12px #787878;
