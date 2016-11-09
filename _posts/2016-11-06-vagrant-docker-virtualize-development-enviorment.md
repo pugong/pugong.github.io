@@ -168,6 +168,12 @@ vagrant resume
 vagrant  reload
 ```
 
+上传box可以通过ftp
+
+```sh
+vagrant push
+```
+
 注意：可以通过 **vagrant box** 管理vagrant虚拟机示例
 
 ### Docker 用法
