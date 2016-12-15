@@ -16,8 +16,8 @@ category: Tech
 * Product / Develop / Operation
 * Software lifecycle
 * ITIL
-* [Source Control](/tech/git-workflow/)
-* [Evolution of A Website’s Architecture](/tech/evolution-of-a-website-architecture/)
+* [Source Control](/tech/git-workflow)
+* [Evolution of A Website’s Architecture](/tech/evolution-of-a-website-architecture)
 * AA & SSO
 * Cache
 * Message Queue
@@ -27,7 +27,7 @@ category: Tech
 * TOGAF & 4+1 Arch View
 * 测试
 * 发布
-* [监控](/tech/elk-statsd/)
+* [监控](/tech/elk-statsd)
 * [虚拟化](/tech/vagrant-docker-virtualize-development-enviorment)
 
 -----
@@ -36,9 +36,9 @@ category: Tech
 
 [Evolution of Website’s Architecture](/images/att/Induction-training-Evolution-of-WebSite.pdf)
 
-[Authentication, Authorition and SSO](/images/att/Induction-Training-Au-Az-SSO.pdf)
+[Authentication, Authorization and SSO](/images/att/Induction-Training-Au-Az-SSO.pdf)
 
-[Cach](/images/att/Induction-Training-Cache.pdf)
+[Cache](/images/att/Induction-Training-Cache.pdf)
 
 [Message Queue](/images/att/Induction-Training-Message-Queue.pdf)
 
