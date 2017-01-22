@@ -176,6 +176,9 @@ vagrant push
 
 注意：可以通过 **vagrant box** 管理vagrant虚拟机示例
 
+vagrant box repackage 
+
+
 ### Docker 用法
 
 #### 获取Docker iamge

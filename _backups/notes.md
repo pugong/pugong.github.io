@@ -9,6 +9,26 @@ category: blog
 [message queue](https://zhuanlan.zhihu.com/p/21649950)
 
 
+------------
+
+
+Thread pool
+
+core pool size: the number of running thread, the rest will be queued up to max pool size
+
+max pool size: the maxism number of queued threads. the rest will be rejected.
+
+
+if cpu bound, core pool size = available processor number
+
+if io bound (network, disk etc), core pool size should be measure to X times processor number
+
+
+
+--------------
+
+
+
 postgres
 
 change owner:
@@ -130,4 +150,14 @@ You could probably DRY that up a bit since the alter statements are identical fo
 
 ```
 
+
+
+创业技术团队构成：
+
+后段： 4～5
+前端：2～3
+App：3
+测试：1～2
+DBA+OPS：1
+产品+数据分析：2～3
 
