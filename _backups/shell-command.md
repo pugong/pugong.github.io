@@ -8,9 +8,11 @@ hide_title: true
 
 找出系统中的大文件
 
-du -xak .|sort -n|tail -50
+    du -xak .|sort -n|tail -50
 
+替换文字
 
+    sed -i "s/# requirepass 15shabi/requirepass paic1234/g" /etc/redis/cluster/7000/redis.conf
 
 
     shell实例手册

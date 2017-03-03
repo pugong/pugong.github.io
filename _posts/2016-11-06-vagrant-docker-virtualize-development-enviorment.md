@@ -74,6 +74,7 @@ Docker本质上是是容器引擎，每个实例是相对隔离，他们都与�
 
 + 安装 Virtualbox 虚拟机
 + 启动虚拟机，安装SSH，创建vagrant用户及安装VBoxLinuxAddtions
++ 打包虚拟机成vagrant box文件
 
 ```sh
 
@@ -97,18 +98,38 @@ chown -R vagrant:vagrant /home/vagrant/.ssh
 sed -i 's/^\(Defaults.*requiretty\)/#\1/' /etc/sudoers
 echo "vagrant ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 
+# disable firewall
+systemctl stop firewalld
 
 # install vboxlinuxaddtions
 yum install gcc make gcc-c++ dkms kernel-devel kernel-headers 
+# restart if necessary
 
 mkdir /mnt/temp
 mount /dev/cdrom /mnt/temp
 cd /mnt/temp
-./VboxLinuxAddtions.sh
+./VboxLinuxAddtions.sh --nox11
 
+
+# install the necessary softwares from share folder or yum repositories
 mkdir /mnt/share
 mount -t vboxsf software /mnt/share
 cd /mnt/share
+
+
+# clean up
+rm -f /etc/udev/rules.d/70-persistent-net.rules
+yum clean all
+rm -rf /tmp/*
+rm -f /var/log/wtmp /var/log/btmp
+history -c
+
+# shutdown vm
+shutdown -h now
+
+# in the external shell, package the vm to box
+# vagrant package --base [name of vm] --output [name of box]
+vagrant package --base centos7-base --output centos7-base.box
 
 ```
 
@@ -119,10 +140,10 @@ cd /mnt/share
 
 ```
 Vagrant.configure("2") do |config|
-  config.vm.box = "centos7-jdev"
-  # config.vm.box_url ="http://192.168.1.202:8080/sharecentos7-jdev.box"
+  config.vm.box = "centos7-dev"
+  # config.vm.box_url ="http://27.0.0.1:8080/share/centos7-dev.box"
 
-  config.vm.network "forwarded_port", guest: 8080, host: 80
+  config.vm.network "forwarded_port", guest: 8080, host: 8080
 
   config.vm.synced_folder "../", "/vagrant", id: "demo", owner: "vagrant"
 
@@ -165,7 +186,7 @@ vagrant suspend
 
 ```sh
 vagrant resume
-vagrant  reload
+vagrant reload
 ```
 
 上传box可以通过ftp
@@ -176,8 +197,9 @@ vagrant push
 
 注意：可以通过 **vagrant box** 管理vagrant虚拟机示例
 
+```sh
 vagrant box repackage 
-
+```
 
 ### Docker 用法
 

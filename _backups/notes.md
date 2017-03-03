@@ -9,6 +9,21 @@ category: blog
 [message queue](https://zhuanlan.zhihu.com/p/21649950)
 
 
+-----
+
+
+how to hack an service and SDK
+
+1. trace the service request / response 
+    [get the interface defination and try to understand the purpose and logic of each interface]
+2. get the defination of each api of the SDK
+    [understand the logic]
+3. write the PRD/AD based on the understanding of step 1 & 2
+4. rewrite the service and SDK
+
+
+
+
 ------------
 
 
