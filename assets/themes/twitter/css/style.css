@@ -79,8 +79,9 @@ a:hover, a:active { outline: none; }
 
 /*  Main  */
 #wrap {
-  width: 1000px;
-  margin: 20px auto;
+  /*width: 1000px;*/
+  /*margin: 20px auto;*/
+  margin: 10px 30px 10px 30px;
 }
 
 #top {

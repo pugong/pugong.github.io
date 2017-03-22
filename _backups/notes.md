@@ -9,6 +9,9 @@ category: blog
 [message queue](https://zhuanlan.zhihu.com/p/21649950)
 
 
+Heinrich's Law 海因里希法则:一件重大的事故背后必有29件轻度的事故，还有300件潜在的隐患。
+
+
 -----
 
 
@@ -20,7 +23,6 @@ how to hack an service and SDK
     [understand the logic]
 3. write the PRD/AD based on the understanding of step 1 & 2
 4. rewrite the service and SDK
-
 
 
 

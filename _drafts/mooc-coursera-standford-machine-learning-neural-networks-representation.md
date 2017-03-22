@@ -17,23 +17,23 @@ if there are too many features, the linear regression will be two large to be ca
 #### Cost function
 
 + unregularized logistic regression
-![logistic regression(unregularized)](images/ml/logisticregressionunregularized.png)
+![logistic regression(unregularized)](/images/ml/logisticregressionunregularized.png)
 
 where
 
-![h(theta) formula](images/ml/lrcosth.png)
+![h(theta) formula](/images/ml/lrcosth.png)
 
-![g(z)](images/ml/lrcostg.png)
+![g(z)](/images/ml/lrcostg.png)
 
 + regularized logistic regression
-![regularized logistic regression](images/ml/logisticregressionregularized.png)
+![regularized logistic regression](/images/ml/logisticregressionregularized.png)
 
 where
 
-![Theta(j)](images/ml/lrCostR.png)
+![Theta(j)](/images/ml/lrCostR.png)
 
 + neural network
-![neural network cost function](images/ml/nwcostfunction.png)
+![neural network cost function](/images/ml/nwcostfunction.png)
 
 
 

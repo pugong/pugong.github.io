@@ -83,8 +83,6 @@ yum install -y openssh-clients man git vim wget curl ntp
 
 chkconfig ntpd on
 chkconfig sshd on
-chkconfig iptables off
-chkconfig ip6tables off
 
 sed -i -e 's/^SELINUX=.*/SELINUX=permissive/' /etc/selinux/config
 
@@ -98,8 +96,12 @@ chown -R vagrant:vagrant /home/vagrant/.ssh
 sed -i 's/^\(Defaults.*requiretty\)/#\1/' /etc/sudoers
 echo "vagrant ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 
-# disable firewall
+# disable firewall 
+# in centos 7 and upper, firewalld was introduced as a replacement for iptables
+# https://oracle-base.com/articles/linux/linux-firewall-firewalld
 systemctl stop firewalld
+chkconfig iptables off
+chkconfig ip6tables off
 
 # install vboxlinuxaddtions
 yum install gcc make gcc-c++ dkms kernel-devel kernel-headers 
@@ -208,7 +210,7 @@ vagrant box repackage
 最简单的方式是直接从repository中获取
 
 ```sh
-docker pull cntos
+docker pull centos
 ```
 
 
