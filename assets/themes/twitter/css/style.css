@@ -81,7 +81,7 @@ a:hover, a:active { outline: none; }
 #wrap {
   /*width: 1000px;*/
   /*margin: 20px auto;*/
-  margin: 10px 30px 10px 30px;
+  margin: 10px 20px 10px 20px;
 }
 
 #top {
@@ -215,7 +215,7 @@ a:hover, a:active { outline: none; }
   background-color: #fff;
   min-height: 1500px;
   margin-left: 271px;
-  padding: 40px;
+  padding: 10px 5px 10px 10px;
 }
 
 #content { margin-bottom: 35px; }
