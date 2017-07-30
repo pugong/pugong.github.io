@@ -3,6 +3,7 @@ layout: post
 title: factory, facade, builder, template & strategy pattern
 description: design patterns
 category: blog
+tags: [Tech, Software Architecture, Design Patterns]
 ---
 {% include JB/setup %}
 

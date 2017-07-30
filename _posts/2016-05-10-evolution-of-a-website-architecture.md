@@ -3,6 +3,7 @@ layout: post
 title: Evolution of A Website’s Architecture
 description: Induction training of Dev Team － part III： from a single server to cluster & sharding 
 category: Tech
+tags: [Tech, Software Architecture]
 ---
 {% include JB/setup %}
 

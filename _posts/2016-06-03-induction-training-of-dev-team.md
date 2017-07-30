@@ -3,7 +3,7 @@ layout: post
 title: Induction training of Dev Team
 description: Induction training of Dev Team
 category: Tech
-
+tags: [Tech, Training]
 ---
 {% include JB/setup %}
 
@@ -27,6 +27,7 @@ category: Tech
 * TOGAF & 4+1 Arch View
 * 测试
 * 发布
+* 日志
 * [监控](/tech/elk-statsd)
 * [虚拟化](/tech/vagrant-docker-virtualize-development-enviorment)
 
@@ -41,6 +42,9 @@ category: Tech
 [Cache](/images/att/Induction-Training-Cache.pdf)
 
 [Message Queue](/images/att/Induction-Training-Message-Queue.pdf)
+
+[Just Log](/images/att/induction-training-just-log.pdf)
+
 
 ### 参考资料：
 

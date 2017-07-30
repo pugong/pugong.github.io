@@ -3,6 +3,7 @@ layout: post
 title: 数据库拆分
 description: 
 category: blog
+tags: [Tech, Database, Sharding]
 ---
 {% include JB/setup %}
 

@@ -3,6 +3,7 @@ layout: post
 title: 读书笔记 － 神们自己 by issac asimov
 description: 
 category: reading
+tags: [Reading, 科幻]
 ---
 {% include JB/setup %}
 

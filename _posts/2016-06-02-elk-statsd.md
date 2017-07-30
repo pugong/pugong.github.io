@@ -3,7 +3,7 @@ layout: post
 title: 软件系统监控方案参考
 description: statsd vs elk (elasticsearch, kibana and logstash) 
 category: Tech
-
+tags: [Tech, Log, Monitor]
 ---
 {% include JB/setup %}
 

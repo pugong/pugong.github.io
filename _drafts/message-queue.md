@@ -3,6 +3,7 @@ layout: post
 title: Message queue
 description: 
 category: blog
+tags: [Tech, Queue]
 ---
 {% include JB/setup %}
 

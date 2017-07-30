@@ -3,6 +3,7 @@ layout: post
 title: 软件架构思想 - TOGAG
 description: 架构思想
 category: blog
+tags: [Tech, Software Architecutre]
 ---
 
 {% include JB/setup %}

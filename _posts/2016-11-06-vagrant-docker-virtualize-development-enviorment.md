@@ -3,7 +3,7 @@ layout: post
 title: Vagrant or Docker - 开发环境虚拟化
 description: 对于“It works on my computer”以及复杂的环境配置问题, 开发环境虚拟化是一个好的解决方案，而此方案的选择基本上在vagrant和docker中选择。
 category: Tech
-tag: [vagrant, docker, development]
+tag: [Tech, vagrant, docker, development]
 ---
 
 {% include JB/setup %}
@@ -100,6 +100,7 @@ echo "vagrant ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
 # in centos 7 and upper, firewalld was introduced as a replacement for iptables
 # https://oracle-base.com/articles/linux/linux-firewall-firewalld
 systemctl stop firewalld
+systemctl disable firewalld
 chkconfig iptables off
 chkconfig ip6tables off
 
