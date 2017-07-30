@@ -3,7 +3,7 @@ layout: post
 title: Algorithms Part I Notes [MOOC] 
 description: Notes on Algorithms Part I by Robert Sedgewick and Kevin Wayne from Princeton University
 category: blog
-tags: mooc coursera algorithms
+tags: [mooc, coursera, algorithms] 
 ---
 {% include JB/setup %}
 

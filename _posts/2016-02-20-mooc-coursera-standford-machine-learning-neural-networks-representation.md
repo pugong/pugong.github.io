@@ -3,7 +3,7 @@ layout: post
 title: Neural Networks | ML
 description: Notes on Machine Learning by Andrew Ng from Stanford University
 category: blog
-tags: mooc coursera machine learning
+tags: [mooc, coursera, machine learning]
 hide_title: true
 ---
 {% include JB/setup %}
