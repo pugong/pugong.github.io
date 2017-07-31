@@ -41,17 +41,29 @@ A record of a journey made by a ship or aircraft, detailing all events, or the b
 
 **Sample of logs**
 
++ History Record
+
 BC1667 Prometheus is chained to the Scythian rocks after stealing the secret of fire from the Gods and giving it to man
 
   -- from Timeline of Greek Myth
 
-![Black Box]()
++ Quest Log (Game)
+
+![Quest Log](/images/log/questlog.png)
+
++ Black box flight recording
+
+![Black Box Flight Recorder](/images/log/bbc-graphic-black-box.jpg)
+
++ Operation Log (Computer)
 
 ![Operation log all](/images/log/oplog_all.png)
 
 <!-- ![Operation log by id](/images/log/oplog_byid.png)
 
 ![Operation log bymd](/images/log/oplog_bymd.png) -->
+
++ Application Log (Computer)
 
 ![application log](/images/log/applog.png)
 
