@@ -1,7 +1,7 @@
 
 
 ```sh
-ssh -i ~/.ssh/aws-proxy.pem aws-ec-instance
+ssh -i ~/.ssh/aws-proxy.pem ec2-user@aws-ec-instance
 ```
 
 ```sh
@@ -11,7 +11,7 @@ sudo pip install shadowsocks
 ```
 
 
-config (/etc/shadowsocks.json)
+config (/usr/local/deploy/shadowsocks.json)
 
 ```json
 {
@@ -28,8 +28,8 @@ config (/etc/shadowsocks.json)
 
 
 ```sh
-sudo ssserver -c /etc/shadowsocks.json -d start
-sudo ssserver -c /etc/shadowsocks.json -d stop
+sudo ssserver -c /usr/local/deploy/shadowsocks.json -d start
+sudo ssserver -c /usr/local/deploy/shadowsocks.json -d stop
 ```
 
 ```sh

@@ -14,9 +14,9 @@ class wild_guess(object):
                     is_right = "falses"
                     break
                 elif guess > random_number:
-                    print "too big, try again, please"
+                    print "too big, please try again"
                 else:
-                    print "too small, try again, please"
+                    print "too small, please try again"
 
             except Exception as e:
                 print "just number, please"

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Induction training of Dev Team
-description: Induction training of Dev Team
+title: Back to Basics
+description: Induction training of Dev Team - Back to Basics
 category: Tech
 tags: [Tech, Training]
 ---
@@ -47,6 +47,8 @@ tags: [Tech, Training]
 
 
 ### 参考资料：
+
+[Parallelism and Concurrency](http://yosefk.com/blog/parallelism-and-concurrency-need-different-tools.html)
 
 [gitlab workflow](https://about.gitlab.com/2014/09/29/gitlab-flow/)
 
