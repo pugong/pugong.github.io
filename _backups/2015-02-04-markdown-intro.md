@@ -7,6 +7,11 @@ tags: [markdown, 语法, 使用说明]
 ---
 {% include JB/setup %}
 
+[Markdown 语法手册 （完整整理版）](http://blog.leanote.com/post/freewalk/Markdown-%E8%AF%AD%E6%B3%95%E6%89%8B%E5%86%8C)
+
+[Learning-Markdown (Markdown 入门参考)](http://xianbai.me/learn-md/index.html)
+
+
 **转载说明** 转载于图灵社区<http://www.ituring.com.cn/article/504>，以下为原文
 
 ------
