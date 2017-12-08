@@ -1,3 +1,11 @@
 
 
-跨部门合作真是说不出的痛
+锻炼
+
+max heart beat： 220 - ages
+
+
+60% max hb ～ 90% max hb
+
+
+
