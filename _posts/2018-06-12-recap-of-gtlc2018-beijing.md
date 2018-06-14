@@ -99,6 +99,9 @@ Growth is **connecting** more  **people** to the existing **value** of a product
 + Horizon 2: 效果营销驱动： 免费/付费，可衡量
 + Horizon 3: 品牌驱动：付费，不可衡量
 
+![增长阶段](/images/growthhacker-phases.png)
+
+
 增长黑客体系：AARRR模型
     
 + Acquisition： 获客
@@ -169,7 +172,7 @@ Growth is **connecting** more  **people** to the existing **value** of a product
 ------
 
 
-换一片海，还是换一艘船？-- 技术人生的洞察与决策 by 乔新亮
+### 换一片海，还是换一艘船？-- 技术人生的洞察与决策 by 乔新亮
 
 如何洞察
 
@@ -182,8 +185,8 @@ Growth is **connecting** more  **people** to the existing **value** of a product
 
 - 建立**长效**规则：不要天天做决策
 - 避免**边界**条件：避免无效决策
-- 思考**正确**方案：避免折中决策
-- 纳入**行动**承若：避免纸上谈兵
+- 思考**正确**方案：避免折衷决策
+- 纳入**行动**承诺：避免纸上谈兵
 - 坚持**亲自**检查：做执行的将军
 
 决策三部曲
