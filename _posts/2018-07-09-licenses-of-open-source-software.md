@@ -1,0 +1,186 @@
+---
+layout: post
+title: 常见开源协议比较
+description: 常用的开源协议比如Apache，MIT，BSD，GPL等之间有什么差异
+category: Tech
+tags: [license, open source, 协议, 开源]
+---
+
+目前开源协议软件被越来越多应用，但很多公司或个人在使用的时候并不注意说其使用的开源软件采用的协议，可能导致后续的一些法律上的纠纷。因此这里将常用的开源协议整理一下以供参考。
+
+当前GITHUB最常用的开源协议主要由MIT，Apache 2.0以及GPLv3。三种血液里面MIT协议最宽松，可以任意使用；Apache协议对于企业会更友好，不用担心涉及专利的事情；GPLv3是最严的，它严格要求使用此协议组件的软件产品也必须按照GPLv3协议开源出来。
+
+
+### MIT协议：
+
+允许范围
+
+    Commercial use
+    Modification
+    Distribution
+    Private us
+
+使用条件
+
+    License and copyright notice
+
+不包含内容
+    
+    Liability
+    Warranty
+
+类似的协议： BSD协议； MIT = two-clause BSD; 3/4-Clause BSD增加了“No Endorsement”条款，即不允许用采用本协议的软件来做二次开发产品的宣传
+
+适用场景：鼓励开源，随意使用
+
+使用的软件：.NET Core, 大部分NPM包
+
+### Apache 2.0协议 (ASLv2)
+
+允许范围
+
+    Commercial use
+    Modification
+    Distribution
+    Patent use
+    Private us
+
+使用条件
+    
+    Trademark use
+    Liability
+    Warranty
+
+不包含内容
+    
+    Liability
+    Warranty
+
+适用场景：鼓励开源，可以任意使用；贡献者可申请专利，但需要提供专利许可
+
+使用软件：大多数apache foundation下面的软件，比如tomcat, hadoop, kafka等
+
+### GNU General Public License version 3协议 (GPLv3)
+
+允许范围
+
+    Commercial use
+    Modification
+    Distribution
+    Patent use
+    Private us
+
+使用条件
+    
+    Disclose source
+    License and copyright notice
+    Same license
+    State changes
+
+不包含内容
+    
+    Liability
+    Warranty
+
+
+GPLv3扩展
+
+    GNU Affero General Public License (AGPLv3): 在使用条件中增加了：Network use is distribution，意思就是 When a modified version is used to provide a service over a network, the complete source code of the modified version must be made available.
+
+    GNU Lesser General Public License (LGPL): 放宽了对非此协议的组件引用限制
+
+
+类似协议：Mozzila：这两个协议不强制要求使用同样许可证，但需要开源
+
+适用场景：强制开源，可以任意使用，但需要将修改后的代码同样开源
+
+
+#### 一幅比较全的英文关于开源协议的比较
+
+![](/images/Licensing-Creative-Works-for-Advancing-A-Creative-Culture-1.0.png)
+
+
+**注意**： 免费软件 != 开源软件
+
+### 常用的开源软件所采用的协议
+
+操作系统：
+    
+    Linux Kernel: GPLv2
+    Android： ASLv2
+
+Web容器
+    
+    tomcat：Apache v2.0
+    Wildfly(formly jboss)：LGPL
+    Jetty：Apache v2.0
+    WebLogic： 商用
+    WebSphere: 商用
+
+    NodeJS：MIT
+    
+
+开发框架/组件
+
+    Spring家族：Apache v2.0
+    Dubbo： Apache v2.0
+    Ruby on Rails: MIT
+    大多数JS库（VueJS，AngularJS, Backbone.js等）：MIT
+
+消息队列： 
+
+    Kafka：Apache 2.0 协议
+    RocketMQ：Apache 2.0 协议
+    RabbitMQ：Mozzila
+    zeroMQ:LGPL
+
+数据库
+
+    REDIS：BSD协议
+    PostgreSQL:postgresql协议，和MIT/BSD类似
+    MySQL: GPLv2
+    MariaDB：GPLv2  （驱动:LGPLv2.1 or later）
+    Hadoop：Apache v2.0 协议
+    Spark：Apache v2.0 协议
+    HBase: Apache v2.0
+    Elastic Search：Apache v2.0
+    MongoDB: AGPLv3和商用协议；驱动 Apache v2.0
+
+    neo4j： AGPLv3和商业协议
+
+虚拟化：
+
+    Kubernetes: ASLv2
+    Openstack: ASLv2 (Apache License Version 2.0)
+    Docker:
+    Vagrant:
+    Virtualbox:
+
+编辑及测试工具
+
+    ATOM: MIT
+    VSCode: MIT
+    Eclipse: EPL(Eclipse Pulic License), 类似于GPL，比GPL限制略弱，去掉了“Patent Retalation”
+    JUnit：EPL
+    JMeter：Apache v2
+    Jenkins: MIT
+
+其他
+
+    Firefox: Mozzila
+    7-zip:  LGPLv2.1
+    Bitcoin core: MIT
+    PuTTY: MIT
+    Gitlab: MIT
+
+-------
+
+References：
+
+[Open Source Licenses on Wikipedia](https://en.wikipedia.org/wiki/Comparison_of_free_and_open-source_software_licenses)
+
+[Open Source Licenses on github](https://opensource.guide/legal/)
+
+[Open Source Licenses on Choose a License](https://choosealicense.com/licenses/)
+
+[Softwares by license on Wikipedia](https://en.wikipedia.org/wiki/Category:Free_software_by_license)
