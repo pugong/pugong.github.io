@@ -90,14 +90,18 @@ GPLv3扩展
     GNU Lesser General Public License (LGPL): 放宽了对非此协议的组件引用限制
 
 
-类似协议：Mozzila：这两个协议不强制要求使用同样许可证，但需要开源
+类似协议：
+
+    Mozzila：这两个协议不强制要求使用同样许可证，但需要开源
+    
+    Eclipse Pulic License(EPL): 类似于GPL，比GPL限制略弱，去掉了“Patent Retalation”
 
 适用场景：强制开源，可以任意使用，但需要将修改后的代码同样开源
 
 
-#### 一幅比较全的英文关于开源协议的比较
+#### 图解开源协议的比较
 
-![](/images/Licensing-Creative-Works-for-Advancing-A-Creative-Culture-1.0.png)
+![](/images/open-source-software-licensing.png)
 
 
 **注意**： 免费软件 != 开源软件
@@ -111,9 +115,9 @@ GPLv3扩展
 
 Web容器
     
-    tomcat：Apache v2.0
+    tomcat：ASLv2
     Wildfly(formly jboss)：LGPL
-    Jetty：Apache v2.0
+    Jetty：ASLv2
     WebLogic： 商用
     WebSphere: 商用
 
@@ -122,15 +126,15 @@ Web容器
 
 开发框架/组件
 
-    Spring家族：Apache v2.0
-    Dubbo： Apache v2.0
+    Spring家族：ASLv2
+    Dubbo： ASLv2
     Ruby on Rails: MIT
     大多数JS库（VueJS，AngularJS, Backbone.js等）：MIT
 
 消息队列： 
 
-    Kafka：Apache 2.0 协议
-    RocketMQ：Apache 2.0 协议
+    Kafka：ASLv2
+    RocketMQ：ASLv2
     RabbitMQ：Mozzila
     zeroMQ:LGPL
 
@@ -140,11 +144,11 @@ Web容器
     PostgreSQL:postgresql协议，和MIT/BSD类似
     MySQL: GPLv2
     MariaDB：GPLv2  （驱动:LGPLv2.1 or later）
-    Hadoop：Apache v2.0 协议
-    Spark：Apache v2.0 协议
-    HBase: Apache v2.0
-    Elastic Search：Apache v2.0
-    MongoDB: AGPLv3和商用协议；驱动 Apache v2.0
+    Hadoop：ASLv2
+    Spark：ASLv2
+    HBase: ASLv2
+    Elastic Search：ASLv2
+    MongoDB: AGPLv3和商用协议；驱动 ASLv2
 
     neo4j： AGPLv3和商业协议
 
