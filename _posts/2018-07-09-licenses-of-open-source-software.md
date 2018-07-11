@@ -92,9 +92,12 @@ GPLv3扩展
 
 类似协议：
 
-    Mozzila：这两个协议不强制要求使用同样许可证，但需要开源
-    
+    Mozzila：不强制要求使用同样许可证，但需要开源
+
     Eclipse Pulic License(EPL): 类似于GPL，比GPL限制略弱，去掉了“Patent Retalation”
+
+
+    GPLv2: 和GPLv3的区别在于违反许可证后的处理，v2违规后立刻取消许可证，自由在版权人同意后才能恢复，v3对企业相对友好，可以申请临时许可证，也可以在停止侵权后的60天内版权人没有提出异议的话自动回复。
 
 适用场景：强制开源，可以任意使用，但需要将修改后的代码同样开源
 
@@ -115,21 +118,15 @@ GPLv3扩展
 
 Web容器
     
+    Nginx: BSD
     tomcat：ASLv2
     Wildfly(formly jboss)：LGPL
     Jetty：ASLv2
+    apache httpd: ASLv2
+    NodeJS：MIT
+
     WebLogic： 商用
     WebSphere: 商用
-
-    NodeJS：MIT
-    
-
-开发框架/组件
-
-    Spring家族：ASLv2
-    Dubbo： ASLv2
-    Ruby on Rails: MIT
-    大多数JS库（VueJS，AngularJS, Backbone.js等）：MIT
 
 消息队列： 
 
@@ -155,10 +152,20 @@ Web容器
 虚拟化：
 
     Kubernetes: ASLv2
-    Openstack: ASLv2 (Apache License Version 2.0)
-    Docker:
-    Vagrant:
-    Virtualbox:
+    Openstack: ASLv2
+    Docker: ASLv2
+    Vagrant: MIT
+    Virtualbox: GPLv2；扩展包：Personal Use and Evaluation License (PUFL),不可商用
+
+
+开发框架/组件
+
+    Spring家族：ASLv2
+    Dubbo： ASLv2
+    Ruby on Rails: MIT
+    大多数JS库（VueJS，AngularJS, Backbone.js等）：MIT
+    Django: BSD
+    Ruby: BSD
 
 编辑及测试工具
 
