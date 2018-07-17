@@ -2,7 +2,7 @@
 layout: post
 title: 区块链相关算法
 description: Algorithms of Blockchain： Hash, Merkle, Encryption, Proof of Work, Bloom Filter, Consensus, Lighting Network等
-category: tech
+category: Tech
 tag: [Tech, Algorithms, Blockchain, bitcoin, 算法，区块链]
 ---
 

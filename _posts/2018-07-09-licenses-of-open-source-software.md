@@ -1,7 +1,7 @@
 ---
 layout: post
-title: 常见开源协议比较
-description: 常用的开源协议比如Apache，MIT，BSD，GPL等之间有什么差异
+title: 开源协议漫谈
+description: 常用的开源协议比如Apache，MIT，BSD，GPL等之间有什么差异，如果打算开源软件的话如何选择开源协议
 category: Tech
 tags: [license, open source, 协议, 开源]
 ---
@@ -10,6 +10,7 @@ tags: [license, open source, 协议, 开源]
 
 当前GITHUB最常用的开源协议主要由MIT，Apache 2.0以及GPLv3。三种血液里面MIT协议最宽松，可以任意使用；Apache协议对于企业会更友好，不用担心涉及专利的事情；GPLv3是最严的，它严格要求使用此协议组件的软件产品也必须按照GPLv3协议开源出来。
 
+开源协议漫谈Slides: [开源协议漫谈](/images/atts/just-open-source-liceses.pdf)
 
 ### MIT协议：
 
@@ -29,11 +30,11 @@ tags: [license, open source, 协议, 开源]
     Liability
     Warranty
 
-类似的协议： BSD协议； MIT = two-clause BSD; 3/4-Clause BSD增加了“No Endorsement”条款，即不允许用采用本协议的软件来做二次开发产品的宣传
+类似的协议： BSD协议； MIT = two-clause BSD; 3/4-Clause BSD增加了“No Endorsement”条款，即不可以用开源代码的作者/机构名字和原来产品的名字做市场推广。
 
-适用场景：鼓励开源，随意使用
+适用场景：鼓励开源，随意使用。
 
-使用的软件：.NET Core, 大部分NPM包
+使用的软件：.NET Core, 大部分NPM包。
 
 ### Apache 2.0协议 (ASLv2)
 
@@ -96,16 +97,22 @@ GPLv3扩展
 
     Eclipse Pulic License(EPL): 类似于GPL，比GPL限制略弱，去掉了“Patent Retalation”
 
-
-    GPLv2: 和GPLv3的区别在于违反许可证后的处理，v2违规后立刻取消许可证，自由在版权人同意后才能恢复，v3对企业相对友好，可以申请临时许可证，也可以在停止侵权后的60天内版权人没有提出异议的话自动回复。
+    GPLv2: 和GPLv3的区别在于违反许可证后的处理，v2违规后立刻取消许可证，自由在版权人同意后才能恢复，v3对企业相对友好，可以申请临时许可证，也可以在停止侵权后的60天内版权人没有提出异议的话自动恢复。
 
 适用场景：强制开源，可以任意使用，但需要将修改后的代码同样开源
+
+**注意**：GPL感染
+
 
 
 #### 图解开源协议的比较
 
 ![](/images/open-source-software-licensing.png)
 
+
+如果自己开源，选择License时需要考虑
+
+![](/images/open-source-software-licenses-choose.png)
 
 **注意**： 免费软件 != 开源软件
 
@@ -140,7 +147,7 @@ Web容器
     REDIS：BSD协议
     PostgreSQL:postgresql协议，和MIT/BSD类似
     MySQL: GPLv2
-    MariaDB：GPLv2  （驱动:LGPLv2.1 or later）
+    MariaDB：GPLv2 (驱动:LGPLv2.1 or later)
     Hadoop：ASLv2
     Spark：ASLv2
     HBase: ASLv2
@@ -160,7 +167,7 @@ Web容器
 
 开发框架/组件
 
-    Spring家族：ASLv2
+    Spring Cloud & other Spring Frameworks ：ASLv2
     Dubbo： ASLv2
     Ruby on Rails: MIT
     大多数JS库（VueJS，AngularJS, Backbone.js等）：MIT
@@ -171,7 +178,7 @@ Web容器
 
     ATOM: MIT
     VSCode: MIT
-    Eclipse: EPL(Eclipse Pulic License), 类似于GPL，比GPL限制略弱，去掉了“Patent Retalation”
+    Eclipse: EPL
     JUnit：EPL
     JMeter：Apache v2
     Jenkins: MIT
@@ -185,6 +192,8 @@ Web容器
     Gitlab: MIT
 
 -------
+
+
 
 References：
 
