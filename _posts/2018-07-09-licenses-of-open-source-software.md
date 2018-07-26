@@ -12,6 +12,18 @@ tags: [license, open source, 协议, 开源]
 
 开源协议漫谈Slides: [开源协议漫谈](/images/atts/just-open-source-liceses.pdf)
 
+#### 图解开源协议
+
+如果使用开源软件，需要关注其开源协议
+
+![](/images/open-source-software-licensing.png)
+
+
+如果自己开源，选择License时需要考虑
+
+![](/images/open-source-software-licenses-choose.png)
+
+
 ### MIT协议：
 
 允许范围
@@ -86,33 +98,31 @@ tags: [license, open source, 协议, 开源]
 
 GPLv3扩展
 
-    GNU Affero General Public License (AGPLv3): 在使用条件中增加了：Network use is distribution，意思就是 When a modified version is used to provide a service over a network, the complete source code of the modified version must be made available.
+    GNU Affero General Public License (AGPLv3): 在使用条件中增加了：Network 
+    use is distribution，意思就是 When a modified version is used to provide 
+    a service over a network, the complete source code of the modified 
+    version must be made available.
 
     GNU Lesser General Public License (LGPL): 放宽了对非此协议的组件引用限制
 
 
 类似协议：
 
+
     Mozzila：不强制要求使用同样许可证，但需要开源
 
-    Eclipse Pulic License(EPL): 类似于GPL，比GPL限制略弱，去掉了“Patent Retalation”
+    Eclipse Pulic License(EPL): 类似于GPL，比GPL限制略弱，去掉了“Patent 
+    Retalation”
 
-    GPLv2: 和GPLv3的区别在于违反许可证后的处理，v2违规后立刻取消许可证，自由在版权人同意后才能恢复，v3对企业相对友好，可以申请临时许可证，也可以在停止侵权后的60天内版权人没有提出异议的话自动恢复。
+    GPLv2: 和GPLv3的区别在于违反许可证后的处理，v2违规后立刻取消许可证，只有在
+    版权人同意后才能恢复，v3对企业相对友好，可以申请临时许可证，也可以在停止侵
+    权后的60天内版权人没有提出异议的话自动恢复。
+
 
 适用场景：强制开源，可以任意使用，但需要将修改后的代码同样开源
 
 **注意**：GPL感染
 
-
-
-#### 图解开源协议的比较
-
-![](/images/open-source-software-licensing.png)
-
-
-如果自己开源，选择License时需要考虑
-
-![](/images/open-source-software-licenses-choose.png)
 
 **注意**： 免费软件 != 开源软件
 
@@ -204,3 +214,5 @@ References：
 [Open Source Licenses on Choose a License](https://choosealicense.com/licenses/)
 
 [Softwares by license on Wikipedia](https://en.wikipedia.org/wiki/Category:Free_software_by_license)
+
+[Open Source Licenses Comparison on foss](https://itsfoss.com/open-source-licenses-explained/)
