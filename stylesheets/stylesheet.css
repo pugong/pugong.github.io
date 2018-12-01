@@ -128,7 +128,7 @@ nav ul, nav li { margin: 0; list-style:none; list-style-image: none; }
 
 /*  Widgets  */
 #tag-cloud, #contacts-list {
-  margin-left: 40px;
+  margin-left: 10px;
   margin-right: 20px;
   margin-bottom: 15px;
 }
@@ -138,8 +138,7 @@ nav ul, nav li { margin: 0; list-style:none; list-style-image: none; }
   margin-right: 2px;
 }
 #tag-cloud a:hover { color: #ae432e !important; }
-#contacts-list { margin-top: 6px; }
-#fixed-container { width: 271px; }
+
 
 /**
  * 1. Correct `inline-block` display not defined in IE 8/9.
