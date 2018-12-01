@@ -3,7 +3,7 @@
 permalink: /:categories/:title.html
 
 safe: false
-plugins: ["jekyll-paginate","jekyll-mermaid"]
+plugins: ["jekyll-paginate"]
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 paginate: 10
 encoding: utf-8
@@ -11,6 +11,7 @@ highlighter: rouge
 markdown: kramdown
 kramdown:
   input:         GFM
+mermaid_enable: true
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.

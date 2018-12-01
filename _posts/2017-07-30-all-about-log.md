@@ -1,6 +1,6 @@
 ---
 layout: post
-title: All about log
+title: Just log
 description: log
 category: Tech
 tags: [Tech, Log, Monitor]

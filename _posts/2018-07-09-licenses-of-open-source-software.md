@@ -21,7 +21,25 @@ tags: [license, open source, 协议, 开源]
 
 如果自己开源，选择License时需要考虑
 
-![](/images/open-source-software-licenses-choose.png)
+<!-- ![](/images/open-source-software-licenses-choose.png) -->
+
+```mermaid
+graph TD
+canClosed{是否可闭源}
+canClosed -->| 是| canLic{放置版权声明}
+canClosed -->| 否| canSameLic{采用同样许可证}
+canLic -->| 是| canPro{可以用来宣传}
+canLic -->| 否| Apache
+canPro -->| 是| MIT
+canPro -->| 否| BSD
+canSameLic -->| 是| mustDoc{必须文档说明}
+canSameLic -->| 否| canNetDist{是否可网络分发}
+mustDoc -->| 是| Mizzia
+mustDoc -->| 否| LGPL
+canNetDist -->| 是| GPL
+canNetDist -->| 否| AGPL
+```
+
 
 
 ### MIT协议：
