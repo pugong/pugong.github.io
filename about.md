@@ -24,7 +24,7 @@ My resume in [linkedin](http://cn.linkedin.com/in/pugong)
 [How to start your own website](/images/att/How-to-Start-your-own-website_V1.3.pdf)
 
 
-新员工培训系列
+Back to Basic 培训系列
 
 [Product, Develop & Operation](/images/att/Induction-training-Product-Dev-Ops.pdf)
 
@@ -44,8 +44,6 @@ My resume in [linkedin](http://cn.linkedin.com/in/pugong)
 
 2. [jekyll](http://jekyllrb.com/) for the great blog engine
 
-3. [pixyll](https://github.com/johnotander/pixyll) for the beautiful theme
-
-4. [pixyll中文版](https://github.com/ee0703/pixyll-zh-cn) 对pixyll做了汉化 
+3. [Architect theme](https://github.com/pietromenna/jekyll-architect-theme) for the great theme
 
 

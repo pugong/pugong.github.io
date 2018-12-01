@@ -47,7 +47,7 @@ master ----------------------------------------------------o--------------------
 
 * 如何避免开发中的无意义日志 merge到主线：从dev拉取个人分支，在从个人分支拉取feature分支，在feature分支开发完成merge到个人分支增加－－squash参数，会把feature上的commit信息都忽略掉。然后从个人分支做merge request到dev
 
-```
+```bash
     参考指令：
     
     git checkout -b mybranch dev

@@ -1,6 +1,87 @@
----
-theme :
-  name : twitter
----
-{% include JB/setup %}
-{% include themes/twitter/default.html %}
+<!DOCTYPE html>
+<html lang="{{ site.locale }}">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link href='https://fonts.googleapis.com/css?family=Architects+Daughter' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheets/stylesheet.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheets/pygment_trac.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/stylesheets/print.css" media="print" />
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <title> {{ page.title }} </title>
+  </head>
+
+  <body>
+    <header style="padding-bottom: 40px;background: #2e7bcf url(../images/header-bg.jpg) 0 0 repeat-x;">
+      <div class="inner">
+        <h1> {{ site.title }} </h1>
+        <h2> {{ site.description }}</h2>
+        <!-- <a href="https://github.com/pietromenna/jekyll-architect-theme" class="button"><small>View project on</small> GitHub</a> -->
+      </div>
+      <nav id="navbar" style="margin-left: 120px">
+        <ul>
+          <li{% if page.url == HOME_PATH %} class="active"{% endif %}>
+            <a href="/" title="首页">首页</a>
+          </li>
+          <li{% if page.url == site.JB.categories_path %} class="active"{% endif %}>
+            <a href="{{ site.JB.categories_path }}" title="分类">分类</a>
+          </li>
+          <li{% if page.url == site.JB.tags_path %} class="active"{% endif %}>
+            <a href="{{ site.JB.tags_path }}" title="标签">标签</a>
+          </li>
+          <!-- 
+          <li{% if page.url == site.JB.messages_path %} class="active"{% endif %}>
+            <a href="{{ site.JB.messages_path }}" title="留言板">留言板</a>
+          </li> 
+          -->
+          <li id="about-link" {% if page.url == site.JB.about_path %} class="active"{% endif %}>
+            <a href="{{ site.JB.about_path }}" title="关于我">关于我</a>
+          </li>
+          <li id="rss-link">
+            <a href="{{ site.JB.rss_path }}" title="订阅 RSS"><i class="icon-large icon-fixed-width icon-rss"></i></a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="content-wrapper">
+      <div class="inner clearfix">
+        <section id="main-content">
+          
+          {{ content }}
+
+        </section>
+
+
+          <!-- Sidebar -->
+        <aside id="sidebar">
+          <!-- <section id="search-box">
+            {% include widgets/search_box %}
+          </section> -->
+          <section{% if page.date or page.title == site.title %} class="active"{% endif %}>
+            {% include widgets/recent_posts_list %}
+          </section>
+          <section{% if page.title == '存档' %} class="active"{% endif %}>
+            {% include widgets/archive_list %}
+          </section>
+          <section{% if page.title == '分类' %} class="active"{% endif %}>
+            {% include widgets/categories_list %}
+          </section>
+          <section{% if page.title == '标签' %} class="active"{% endif %}>
+            {% include widgets/tag_cloud %}
+          </section>
+          <!-- {% include widgets/fixed_container %} -->
+          <section>
+            {% include widgets/contacts_list %}
+          </section>
+        </aside>
+      </div>
+    </div>
+
+  </body>
+</html>
