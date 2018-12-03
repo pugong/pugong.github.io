@@ -12,7 +12,7 @@ markdown: kramdown
 kramdown:
   input:         GFM
 mermaid_enable: true
-
+jekyll_auto_find_paths: false
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
