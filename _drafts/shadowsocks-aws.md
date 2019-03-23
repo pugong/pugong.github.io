@@ -1,4 +1,6 @@
+# shadowsocks proxy
 
+## install
 
 ```sh
 ssh -i ~/.ssh/aws-proxy.pem ec2-user@aws-ec-instance
@@ -10,8 +12,11 @@ sudo easy_install pip
 sudo pip install shadowsocks
 ```
 
+## config
 
-config (/usr/local/deploy/shadowsocks.json)
+The config file normally could be found as /usr/local/deploy/shadowsocks.json
+
+Modify the configurations:
 
 ```json
 {
@@ -26,11 +31,16 @@ config (/usr/local/deploy/shadowsocks.json)
 }
 ```
 
+## start & stop
+
+start & stop command
 
 ```sh
 sudo ssserver -c /usr/local/deploy/shadowsocks.json -d start
 sudo ssserver -c /usr/local/deploy/shadowsocks.json -d stop
 ```
+
+check the log
 
 ```sh
 sudo less /var/log/shadowsocks.log

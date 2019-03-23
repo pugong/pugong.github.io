@@ -11,7 +11,6 @@ tags: [mermaid, markdown, graph]
 
 [Mermaid](https://mermaidjs.github.io/), a simple markdown-like script language for generating charts from text via javascript.
 
-
 ## Flowchart
 
 ### TopDown flowchart
@@ -35,17 +34,19 @@ A -->|No|C[Another 2]
 B -->D[Result]
 C -->D
 ```
+
 More about [flowchart](https://mermaidjs.github.io/flowchart.html)
 
 ### Sequence Diagram
 
-```mermaid 
+```mermaid
 sequenceDiagram
     Client->>Service: Request
     activate Service
     Service-->>Client: Response
     deactivate Service
 ```
+
 More about [Sequence Diagram](https://mermaidjs.github.io/sequenceDiagram.html)
 
 ### Gratt

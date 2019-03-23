@@ -31,9 +31,9 @@ master ----------------------------------------------------o--------------------
 
 * 为了减少提交merge request的时候出现冲突，建议在提交之前先从dev分支merge好再到界面提交merge request
 
-```
-    参考指令：
-    
+参考指令：
+
+```bash
     git checkout dev
     
     git pull
@@ -47,20 +47,20 @@ master ----------------------------------------------------o--------------------
 
 * 如何避免开发中的无意义日志 merge到主线：从dev拉取个人分支，在从个人分支拉取feature分支，在feature分支开发完成merge到个人分支增加－－squash参数，会把feature上的commit信息都忽略掉。然后从个人分支做merge request到dev
 
+参考指令：
+
 ```bash
-    参考指令：
+    git checkout -b dev-feather dev
     
-    git checkout -b mybranch dev
-    
-    git checkout -b dev-my-feature mybranch
+    git checkout -b dev-my-feature dev-feather
     
     ... 在dev-my-feature上完成开发 ...
     
-    git checkout mybranch
+    git checkout dev-feather
     
     git merge dev-my-feature --squash
     
-    git commit -m 'my feature: ******'
+    git commit -m 'feature: ******'
     
     gitlab界面上提交merge request
     

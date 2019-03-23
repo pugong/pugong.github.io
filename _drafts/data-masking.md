@@ -73,6 +73,13 @@ SPD | Sensitive personal data
 CSD | Commercially sensitive data
 CSI | Commercially sensitive information
 
+
+## Roadmap
+
+* Sensitive Infomation Detection
+* Static Data Masking
+* Online Data Masking
+
 Reference
 
 + [Data Masking on wikipedia](https://en.wikipedia.org/wiki/Data_masking)
