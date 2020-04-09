@@ -6,8 +6,7 @@ category: Tech
 tags: [mermaid, markdown, graph]
 ---
 
-
-# A few Mermaid samples
+# Mermaid samples
 
 [Mermaid](https://mermaidjs.github.io/), a simple markdown-like script language for generating charts from text via javascript.
 
