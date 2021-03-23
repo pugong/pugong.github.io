@@ -170,22 +170,3 @@ category: Life
 #### 2015 抗战胜利纪念日
 
 9.3 苏州 金鸡湖凯宾斯基
-
-
-
-[绍兴路整栋产权 层高4米 格局方正](http://sh.lianjia.com/ershoufang/SH0000740622.html)
-
-[江阴路105弄](http://sh.lianjia.com/ershoufang/SH0000465359.html)
-70平米花园独用 老洋房双开间 
-
-
-[海丽大厦 411/155](http://sh.lianjia.com/ershoufang/SH0000751959.html)
-
-
-[嘉发大厦 3室2厅 370万 136㎡](http://sh.lianjia.com/ershoufang/SH0001338132.html)
-
-
-[同益里 整栋新里 590万/ 74㎡](http://sh.lianjia.com/ershoufang/SH0001077186.html)
-
-[同益里 750万/ 98㎡](http://sh.lianjia.com/ershoufang/SH0001096468.html)
-
