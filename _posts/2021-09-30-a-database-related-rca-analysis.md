@@ -34,18 +34,18 @@ hide_title: true
 
 ```mermaid
 graph LR
-J(JMeter)-->A(APP)
-A-->V(VIP)
-V-->DB1
+    J(JMeter)-->A(APP)
+    A-->V(VIP)
+    V-->DB1
 ```
 
 主备切换后期望的调用链
 
 ```mermaid
 graph LR
-J(JMeter)-->A(APP)
-A-->V(VIP)
-V-->DB2
+    J(JMeter)-->A(APP)
+    A-->V(VIP)
+    V-->DB2
 ```
 
 切换VIP到DB2，如果此时关闭DB1数据库实例（关主机/停数据库等），应用马上切换到DB2上。而如果保持DB1数据库实例正常，会发现应用还是连接在DB1上，直到MaxLifeTime才会切换到DB2。从这个现象上看如果像数据库切换过程有问题，原来的数据库端口还在，导致连接不断开导致的。
