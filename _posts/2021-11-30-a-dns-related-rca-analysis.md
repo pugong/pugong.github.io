@@ -6,7 +6,7 @@ category: blog
 tags: database rca postmortem
 hide_title: true
 ---
-
+{% include JB/setup %}
 
 在上次主备切换的惨案几个月之后，很不幸我们又遇到了一次惨案。
 
