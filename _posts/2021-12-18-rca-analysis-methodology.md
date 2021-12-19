@@ -29,7 +29,7 @@ hide_title: true
 以考试成绩没考好为例首先简单分析
 
 ```mermaid
-flowchart TD
+graph TD
     Q(期末考试没考好) --> W1(考场上睡着了)
         W1 --> W2(没有休息好导致考场睡着)
         W2 --> W3(熬夜看世界杯导致没有休息好)
@@ -40,7 +40,7 @@ flowchart TD
 很多时候并不是只有一个诱因，这时候需要把所有原因线都列出来
 
 ```mermaid
-flowchart TD
+graph TD
         Q(期末考试没考好) --> W1(考场上睡着了)
         Q--> WH2(没有认真复习)
         Q--> WHY2(玩的时间太多)
