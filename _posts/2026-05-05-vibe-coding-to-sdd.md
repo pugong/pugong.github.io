@@ -66,7 +66,6 @@
 
 > **你的经验是你最大的资产，也是你最大的单点故障。**
 
----
 
 ## 从 Vibe 到 SDD：核心思维跃迁
 
@@ -82,24 +81,21 @@
 
 ---
 
-## SDD 的四个核心概念
+## 核心概念
 
 | 概念 | 作用 | 一句话 |
 |------|------|--------|
-| 📐 OpenSpec | 写规格 | 定义"对的是什么样" |
 | 🛠️ Harness Engineering | 定边界 | 给 AI 上好缰绳 |
-| 🔄 OpenCode | 驱动工具 | 把规格翻译成可执行脚本 |
+| 🔄 SDD | 规范驱动开发 | 编程的Harness Engineering|
+| 📐 OpenSpec | 写规格 | 定义"对的是什么样" |
 | 🔁 Ralph Loop | 自动执行 | 持续迭代直到合规，不完成不许停 |
 
-```
-OpenSpec（规格 = Harness 定义）
-       ↓
-OpenCode（翻译层）
-       ↓
-Ralph Loop（执行引擎：扫描→修复→验证→通过/重来）
-       ↓
-安全合规 ✅
-```
+Why Opencode：
+- 不需要独立IDE
+- 非AI厂商强关联
+- 安全人员大多数有console使用经验
+
+可以根据个人爱好选择IDE(vscode,pycharm等)+插件，厂商Client(Claude-code，Gemini Cli等)或定制IDE(cursor,trae等)
 
 ---
 
@@ -117,7 +113,7 @@ Ralph Loop（执行引擎：扫描→修复→验证→通过/重来）
 > "Agent = Model + Harness + Context"
 > 真正的工程能力在 Harness——你如何约束它、引导它、验证它。
 
-> 💡 **对安全工程师来说，OpenSpec 规格文件就是你的 Harness。**
+> 💡 **OpenSpec 规格文件就是AI编码的Harness。**
 
 ---
 
@@ -676,17 +672,11 @@ Ralph Loop 执行引擎 ——
 
 ## Q&A / 附录资源
 
-**随堂资料**：
-- 📋 代码速查卡（Python 语法）
-- 🕵️ 安全模式匹配表
-- 📐 OpenSpec 格式速查卡
-- 🗂️ 模拟项目仓库地址
 
-**延伸阅读**：
+**参考资料**：
 - OpenSpec 官方文档
 - Harness Engineering（Anthropic 博客）
 - Ralph Loop 社区演进
-- GIVEN/WHEN/THEN 在 BDD 中的应用
 
 ---
 
